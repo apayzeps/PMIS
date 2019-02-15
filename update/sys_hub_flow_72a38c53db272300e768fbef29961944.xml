@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>create_project_details_record_for_new_projects</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Project Record","reference":"pm_project","reference_display":"Project","type":"reference","base_type":"reference"},{"name":"4f4bc80a-df34-41fc-8b0b-b7b3af1099df.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"4f4bc80a-df34-41fc-8b0b-b7b3af1099df.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <latest_snapshot>d9c50817db272300e768fbef2996197f</latest_snapshot>
+        <master_snapshot>baa5c017db272300e768fbef29961965</master_snapshot>
+        <name>Create Project Details Record for New Projects</name>
+        <outputs/>
+        <remote_trigger_id>76a5c017db272300e768fbef29961999</remote_trigger_id>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 20:52:11</sys_created_on>
+        <sys_id>72a38c53db272300e768fbef29961944</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create Project Details Record for New Projects</sys_name>
+        <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
+        <sys_update_name>sys_hub_flow_72a38c53db272300e768fbef29961944</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-15 21:01:23</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=72a38c53db272300e768fbef29961944"/>
+    <sys_variable_value action="delete_multiple" query="document_key=72a38c53db272300e768fbef29961944"/>
+</record_update>

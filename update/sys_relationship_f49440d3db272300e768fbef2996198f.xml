@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>pm_project</basic_apply_to>
+        <basic_query_from>x_snc_pmis_details</basic_query_from>
+        <insert_callback/>
+        <name>Project Details</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery("u_project_details", parent.sys_id);]]></query_with>
+        <reference_field>project</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 20:57:06</sys_created_on>
+        <sys_id>f49440d3db272300e768fbef2996198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Project Details</sys_name>
+        <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
+        <sys_update_name>sys_relationship_f49440d3db272300e768fbef2996198f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-15 20:57:06</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=f49440d3db272300e768fbef2996198f"/>
+</record_update>
