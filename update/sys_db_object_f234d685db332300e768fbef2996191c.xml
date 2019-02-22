@@ -5,15 +5,15 @@
         <alter_access>false</alter_access>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <extension_model/>
-        <is_extendable>false</is_extendable>
-        <label>Project Details</label>
+        <is_extendable>true</is_extendable>
+        <label>Project Details Choices</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_snc_pmis_details</name>
-        <number_ref display_value="PRJD">87e53df6dbab63401771f7b51d961985</number_ref>
+        <name>x_snc_pmis_choice</name>
+        <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <super_class/>
@@ -21,17 +21,17 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-14 15:54:22</sys_created_on>
-        <sys_id>46e5f1f2dbab63401771f7b51d961918</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Project Details</sys_name>
+        <sys_created_on>2019-02-21 17:55:08</sys_created_on>
+        <sys_id>f234d685db332300e768fbef2996191c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Project Details Choices</sys_name>
         <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
         <sys_policy/>
         <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
-        <sys_update_name>sys_db_object_46e5f1f2dbab63401771f7b51d961918</sys_update_name>
+        <sys_update_name>sys_db_object_f234d685db332300e768fbef2996191c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-22 11:14:36</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_on>2019-02-22 11:26:31</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_snc_pmis.user" name="x_snc_pmis.user">d6e5f9f6dbab63401771f7b51d9619db</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>

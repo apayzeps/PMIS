@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Pmis Details" max_length="40" name="x_snc_pmis_details" type="collection">
+    <element label="Project Details" max_length="40" name="x_snc_pmis_details" type="collection">
+        <element label="Archibus Number" max_length="40" name="archibus_number" type="string"/>
+        <element label="AV Status" max_length="32" name="av_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element label="Branch Priority" max_length="40" name="branch_priority" type="integer"/>
+        <element label="Compliance Status" max_length="32" name="compliance_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element label="Construction Status" max_length="32" name="construction_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element label="Design Status" max_length="32" name="design_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element label="Division Priority" max_length="2" name="division_priority" type="integer"/>
+        <element label="FAC Status" max_length="32" name="fac_status" reference="x_snc_pmis_choice" reference_qual="field=FAC Status^EQ" reference_qual_condition="field=FAC Status^EQ" type="reference"/>
+        <element label="Furniture Status" max_length="32" name="furniture_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element label="Geographical Location" max_length="32" name="geographical_location" reference="x_snc_pmis_choice" reference_qual="field=GeoLocation^EQ" reference_qual_condition="field=GeoLocation^EQ" type="reference"/>
+        <element label="IT Status" max_length="32" name="it_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
         <index name="index">
+            <element name="it_status"/>
+        </index>
+        <index name="index2">
+            <element name="geographical_location"/>
+        </index>
+        <index name="index3">
+            <element name="construction_status"/>
+        </index>
+        <index name="index4">
             <element name="project"/>
+        </index>
+        <index name="index5">
+            <element name="av_status"/>
+        </index>
+        <index name="index6">
+            <element name="fac_status"/>
+        </index>
+        <index name="index7">
+            <element name="design_status"/>
+        </index>
+        <index name="index8">
+            <element name="furniture_status"/>
+        </index>
+        <index name="index9">
+            <element name="compliance_status"/>
         </index>
     </element>
 </database>
