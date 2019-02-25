@@ -4,102 +4,102 @@
         <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent/>
-        <comment/>
+        <comment>Create a record in PMS Details Table</comment>
         <compiled_snapshot display_value="Create Record">2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create Project Details Record for New Projects">72a38c53db272300e768fbef29961944</flow>
+        <flow display_value="Add Project Details Record for Existing">9b4dbd1edb332300e768fbef29961968</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-15 20:53:27</sys_created_on>
-        <sys_id>55f34493db272300e768fbef299619dd</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_created_on>2019-02-25 13:26:47</sys_created_on>
+        <sys_id>08ad71dedb332300e768fbef29961967</sys_id>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
         <sys_policy/>
         <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
-        <sys_update_name>sys_hub_action_instance_55f34493db272300e768fbef299619dd</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-25 13:42:58</sys_updated_on>
-        <ui_id>4f4bc80a-df34-41fc-8b0b-b7b3af1099df</ui_id>
+        <sys_update_name>sys_hub_action_instance_08ad71dedb332300e768fbef29961967</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-25 13:39:29</sys_updated_on>
+        <ui_id>20aeda89-113b-47a8-9912-08eb38ec8eb6</ui_id>
     </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=55f34493db272300e768fbef299619dd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=08ad71dedb332300e768fbef29961967"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>55f34493db272300e768fbef299619dd</document_key>
+        <document_key>08ad71dedb332300e768fbef29961967</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-15 20:53:27</sys_created_on>
-        <sys_id>11f34493db272300e768fbef299619e3</sys_id>
+        <sys_created_on>2019-02-25 13:26:48</sys_created_on>
+        <sys_id>00ad71dedb332300e768fbef2996196e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-15 20:53:27</sys_updated_on>
+        <sys_updated_on>2019-02-25 13:26:48</sys_updated_on>
         <value>x_snc_pmis_details</value>
         <variable display_value="">0352fc8cc3c632002841b63b12d3ae12</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
-        <document_key>55f34493db272300e768fbef299619dd</document_key>
+        <document_key>08ad71dedb332300e768fbef29961967</document_key>
         <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-15 21:00:55</sys_created_on>
-        <sys_id>7ea5c017db272300e768fbef2996194d</sys_id>
+        <sys_created_on>2019-02-25 13:27:00</sys_created_on>
+        <sys_id>83adb1dedb332300e768fbef29961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-15 21:00:55</sys_updated_on>
+        <sys_updated_on>2019-02-25 13:27:00</sys_updated_on>
         <value>x_snc_pmis_details</value>
         <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=55f34493db272300e768fbef299619dd"/>
+    <sys_element_mapping action="delete_multiple" query="id=08ad71dedb332300e768fbef29961967"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table_name</field>
-        <id>55f34493db272300e768fbef299619dd</id>
+        <id>08ad71dedb332300e768fbef29961967</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-15 21:00:55</sys_created_on>
-        <sys_id>36a5c017db272300e768fbef2996194d</sys_id>
+        <sys_created_on>2019-02-25 13:26:48</sys_created_on>
+        <sys_id>44ad71dedb332300e768fbef2996196d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-15 21:00:55</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>55f34493db272300e768fbef299619dd</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-15 20:53:27</sys_created_on>
-        <sys_id>55f34493db272300e768fbef299619e2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-15 20:53:27</sys_updated_on>
+        <sys_updated_on>2019-02-25 13:26:48</sys_updated_on>
         <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>55f34493db272300e768fbef299619dd</id>
+        <field>table_name</field>
+        <id>08ad71dedb332300e768fbef29961967</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-15 20:53:27</sys_created_on>
-        <sys_id>9df34493db272300e768fbef299619e2</sys_id>
+        <sys_created_on>2019-02-25 13:27:00</sys_created_on>
+        <sys_id>4fadb1dedb332300e768fbef29961908</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-15 20:53:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
-        <value>project={{Created_1.current}}</value>
+        <sys_updated_on>2019-02-25 13:27:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>values</field>
-        <id>55f34493db272300e768fbef299619dd</id>
+        <id>08ad71dedb332300e768fbef29961967</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-15 21:00:55</sys_created_on>
-        <sys_id>faa5c017db272300e768fbef2996194d</sys_id>
+        <sys_created_on>2019-02-25 13:27:00</sys_created_on>
+        <sys_id>03adb1dedb332300e768fbef29961909</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-15 21:00:55</sys_updated_on>
+        <sys_updated_on>2019-02-25 13:27:00</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>project={{Created_1.current}}</value>
+        <value>project={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>08ad71dedb332300e768fbef29961967</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-25 13:26:48</sys_created_on>
+        <sys_id>8cad71dedb332300e768fbef2996196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-25 13:26:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02f0b88cc3c632002841b63b12d3aeff</table>
+        <value>project={{Updated_1.current}}</value>
     </sys_element_mapping>
 </record_update>
