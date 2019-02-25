@@ -6,6 +6,7 @@
         <element label="Compliance Status" max_length="32" name="compliance_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
         <element label="Construction Status" max_length="32" name="construction_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
         <element label="Design Status" max_length="32" name="design_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element label="Division" max_length="40" name="division" type="string"/>
         <element label="Division Priority" max_length="2" name="division_priority" type="integer"/>
         <element label="FAC Status" max_length="32" name="fac_status" reference="x_snc_pmis_choice" reference_qual="field=FAC Status^EQ" reference_qual_condition="field=FAC Status^EQ" type="reference"/>
         <element label="Furniture Status" max_length="32" name="furniture_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
