@@ -4,13 +4,13 @@
             <element>fac_status</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>89bc355edb332300e768fbef29961900</sys_id>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>c3560c32dbb7230002b8ab7dca9619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,55 +18,55 @@
             <element>geographical_location</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>0dbc355edb332300e768fbef29961900</sys_id>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>47560c32dbb7230002b8ab7dca9619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>compliance_status</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>8dbc355edb332300e768fbef29961900</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>it_status</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>01bc355edb332300e768fbef29961901</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>construction_status</element>
-            <position>4</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>81bc355edb332300e768fbef29961901</sys_id>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>c7560c32dbb7230002b8ab7dca9619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>av_status</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>4b560c32dbb7230002b8ab7dca9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compliance_status</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>cb560c32dbb7230002b8ab7dca9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>05bc355edb332300e768fbef29961901</sys_id>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>4f560c32dbb7230002b8ab7dca9619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,55 +88,55 @@
             <element>archibus_number</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>85bc355edb332300e768fbef29961901</sys_id>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>cf560c32dbb7230002b8ab7dca9619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>furniture_status</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>09bc355edb332300e768fbef29961901</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>design_status</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>89bc355edb332300e768fbef29961901</sys_id>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>43560c32dbb7230002b8ab7dca9619fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>av_status</element>
-            <position>9</position>
+            <element>it_status</element>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>0dbc355edb332300e768fbef29961901</sys_id>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>c3560c32dbb7230002b8ab7dca9619fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>furniture_status</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-26 18:02:40</sys_created_on>
+            <sys_id>47560c32dbb7230002b8ab7dca9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="FAC" display_value="FAC" name="x_snc_pmis_details" sys_domain="global" view="Default view">02d62399db372300e768fbef2996191f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 18:02:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

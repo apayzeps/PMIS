@@ -1,44 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Project Details" max_length="40" name="x_snc_pmis_details" type="collection">
         <element label="Archibus Number" max_length="40" name="archibus_number" type="string"/>
-        <element label="AV Status" max_length="32" name="av_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
-        <element label="Branch Priority" max_length="40" name="branch_priority" type="integer"/>
-        <element label="Compliance Status" max_length="32" name="compliance_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
-        <element label="Construction Status" max_length="32" name="construction_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
-        <element label="Design Status" max_length="32" name="design_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
-        <element label="Division Priority" max_length="2" name="division_priority" type="integer"/>
+        <element choice="1" label="AV Status" max_length="10" name="av_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="100" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="200" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="300" value="red"/>
+                <element inactive_on_update="false" label="N/A" sequence="400" value="n/a"/>
+            </choice>
+        </element>
+        <element label="Branch Ranking" max_length="40" name="branch_ranking" type="integer"/>
+        <element choice="1" label="Compliance Status" max_length="10" name="compliance_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="100" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="200" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="300" value="red"/>
+                <element inactive_on_update="false" label="N/A" sequence="400" value="n/a"/>
+            </choice>
+        </element>
+        <element choice="1" label="Construction Status" max_length="10" name="construction_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="100" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="200" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="300" value="red"/>
+                <element inactive_on_update="false" label="N/A" sequence="400" value="n/a"/>
+            </choice>
+        </element>
+        <element label="COR" max_length="32" name="cor" reference="sys_user" type="reference"/>
+        <element choice="1" label="Design Status" max_length="10" name="design_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="100" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="200" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="300" value="red"/>
+                <element inactive_on_update="false" label="N/A" sequence="400" value="n/a"/>
+            </choice>
+        </element>
+        <element label="Division Priority" max_length="32" name="division_priority" reference="x_snc_pmis_choice" reference_qual="field=Division Priority^EQ" reference_qual_condition="field=Division Priority^EQ" type="reference"/>
+        <element label="Division Ranking" max_length="40" name="division_ranking" type="integer"/>
         <element label="FAC Status" max_length="32" name="fac_status" reference="x_snc_pmis_choice" reference_qual="field=FAC Status^EQ" reference_qual_condition="field=FAC Status^EQ" type="reference"/>
-        <element label="Furniture Status" max_length="32" name="furniture_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element choice="1" label="Furniture Status" max_length="10" name="furniture_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="100" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="200" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="300" value="red"/>
+                <element inactive_on_update="false" label="N/A" sequence="400" value="n/a"/>
+            </choice>
+        </element>
         <element label="Geographical Location" max_length="32" name="geographical_location" reference="x_snc_pmis_choice" reference_qual="field=GeoLocation^EQ" reference_qual_condition="field=GeoLocation^EQ" type="reference"/>
-        <element label="IT Status" max_length="32" name="it_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element choice="1" label="IT Status" max_length="10" name="it_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="100" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="200" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="300" value="red"/>
+                <element inactive_on_update="false" label="N/A" sequence="400" value="n/a"/>
+            </choice>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
+        <element label="Sponsor" max_length="32" name="sponsor" reference="sys_user" type="reference"/>
+        <element label="Technical Lead" max_length="32" name="technical_lead" reference="sys_user" type="reference"/>
         <index name="index">
-            <element name="it_status"/>
+            <element name="division_priority"/>
         </index>
         <index name="index2">
-            <element name="geographical_location"/>
+            <element name="sponsor"/>
         </index>
         <index name="index3">
-            <element name="construction_status"/>
+            <element name="geographical_location"/>
         </index>
         <index name="index4">
-            <element name="project"/>
+            <element name="cor"/>
         </index>
         <index name="index5">
-            <element name="av_status"/>
+            <element name="technical_lead"/>
         </index>
         <index name="index6">
-            <element name="fac_status"/>
+            <element name="project"/>
         </index>
         <index name="index7">
-            <element name="design_status"/>
-        </index>
-        <index name="index8">
-            <element name="furniture_status"/>
-        </index>
-        <index name="index9">
-            <element name="compliance_status"/>
+            <element name="fac_status"/>
         </index>
     </element>
 </database>

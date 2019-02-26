@@ -10,8 +10,8 @@
             <plural>AV Status</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-22 11:58:48</sys_created_on>
-            <sys_id>b5bcca1ddb332300e768fbef299619ae</sys_id>
+            <sys_created_on>2019-02-26 17:52:47</sys_created_on>
+            <sys_id>8e1404fedb77230002b8ab7dca96194b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>AV Status</sys_name>
             <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
@@ -19,7 +19,7 @@
             <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
             <sys_update_name>sys_documentation_x_snc_pmis_details_av_status_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-22 11:58:48</sys_updated_on>
+            <sys_updated_on>2019-02-26 17:52:47</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

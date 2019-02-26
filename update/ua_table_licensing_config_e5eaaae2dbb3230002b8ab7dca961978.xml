@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_snc_pmis_choice</name>
+        <name>x_snc_pmis_details</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-21 17:55:09</sys_created_on>
-        <sys_id>7fa45e85db332300e768fbef29961970</sys_id>
+        <sys_created_on>2019-02-14 15:54:25</sys_created_on>
+        <sys_id>e5eaaae2dbb3230002b8ab7dca961978</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_snc_pmis_choice</sys_name>
+        <sys_name>x_snc_pmis_details</sys_name>
         <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
         <sys_policy/>
         <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
-        <sys_update_name>ua_table_licensing_config_7fa45e85db332300e768fbef29961970</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_e5eaaae2dbb3230002b8ab7dca961978</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-21 17:55:09</sys_updated_on>
+        <sys_updated_on>2019-02-14 15:54:25</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
