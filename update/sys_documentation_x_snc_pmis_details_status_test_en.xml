@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="status_test" label="Status Test" language="en" table="x_snc_pmis_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>status_test</element>
+            <help/>
+            <hint/>
+            <label>Status Test</label>
+            <language>en</language>
+            <name>x_snc_pmis_details</name>
+            <plural>Status Tests</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-26 13:23:10</sys_created_on>
+            <sys_id>2466432adb732300e768fbef29961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Status Test</sys_name>
+            <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_pmis_details_status_test_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-26 13:23:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

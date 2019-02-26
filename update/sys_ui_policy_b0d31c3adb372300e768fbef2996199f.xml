@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+//Sets the background and font color based on the value of the column - APayze - 02/19/2019
+		
+if (g_form.getValue('status_test')  ==  'Green' )  {
+	g_form.getElement("status_test").style.backgroundColor="green";
+	g_form.getElement("status_test").style.color="white";
+	g_form.getElement("status_test").style.fontWeight ="bold";
+   }
+
+else if (g_form.getValue('status_test')  == 'Yellow' ) {
+	g_form.getElement("status_test").style.backgroundColor="yellow";
+	g_form.getElement("status_test").style.color="black";
+	g_form.getElement("status_test").style.fontWeight ="bold";
+   }
+
+else if (g_form.getValue('status_test')  == 'Red' ) {
+	g_form.getElement("status_test").style.backgroundColor="red";
+	g_form.getElement("status_test").style.color="white";
+	g_form.getElement("status_test").style.fontWeight ="bold";
+   }
+}
+]]></script_true>
+        <set_values/>
+        <short_description>Test Status Color</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-26 19:01:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b0d31c3adb372300e768fbef2996199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Status Color</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
+        <sys_update_name>sys_ui_policy_b0d31c3adb372300e768fbef2996199f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-26 19:01:31</sys_updated_on>
+        <table>x_snc_pmis_details</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

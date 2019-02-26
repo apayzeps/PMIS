@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_project_status_design_status</internal_name>
+        <label_cache>[{"name":"Created_1.current.project.u_project_details.design_status","label":"Trigger➛Status Report Record➛Project➛Project Details➛Design Status","reference":"","reference_display":"Design Status","type":"choice","base_type":"choice","parent_table_name":"x_snc_pmis_details","column_name":"design_status"},{"name":"Created_1.current.project.u_project_details","label":"Trigger➛Status Report Record➛Project➛Project Details","reference":"x_snc_pmis_details","reference_display":"Project Details","type":"reference","base_type":"reference","parent_table_name":"pm_project","column_name":"u_project_details"},{"name":"Created_1.current","label":"Trigger➛Status Report Record","reference":"project_status","reference_display":"Status Report","type":"reference","base_type":"reference"},{"name":"e2e92a44-8e9f-445c-963f-455f8a640fbe.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"e2e92a44-8e9f-445c-963f-455f8a640fbe.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name>Update Project_Status Design Status</name>
+        <outputs/>
+        <parent_flow display_value="Update Project_Status Design Status">ad925cf6db372300e768fbef299619e5</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-26 18:57:43</sys_created_on>
+        <sys_id>ddf2903adb372300e768fbef2996190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Project_Status Design Status</sys_name>
+        <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_ddf2903adb372300e768fbef2996190e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-26 18:57:43</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=ddf2903adb372300e768fbef2996190e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ddf2903adb372300e768fbef2996190e"/>
+</record_update>
