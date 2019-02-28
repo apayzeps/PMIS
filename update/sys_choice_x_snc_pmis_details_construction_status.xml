@@ -82,7 +82,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-02-26 17:40:03</sys_created_on>
-            <sys_id>eb2184fadb77230002b8ab7dca9619fe</sys_id>
+            <sys_id>96f61d03db77230002b8ab7dca9619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>construction_status</sys_name>
             <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>

@@ -55,7 +55,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-02-22 11:32:10</sys_created_on>
-        <sys_id>e5eaaae2dbb3230002b8ab7dca961950</sys_id>
+        <sys_id>acf6d503db77230002b8ab7dca961998</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>FAC Status</sys_name>
         <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
@@ -63,7 +63,7 @@
         <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_pmis_details_fac_status</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-02-26 11:23:09</sys_updated_on>
+        <sys_updated_on>2019-02-27 18:33:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

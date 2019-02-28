@@ -82,7 +82,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-02-26 17:53:02</sys_created_on>
-            <sys_id>7124c0fedb77230002b8ab7dca96196b</sys_id>
+            <sys_id>5af61d03db77230002b8ab7dca9619bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>av_status</sys_name>
             <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
