@@ -4,41 +4,41 @@
             <element>branch_priority</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-22 18:33:21</sys_created_on>
-            <sys_id>dd07a399db372300e768fbef299619ec</sys_id>
+            <sys_created_on>2019-03-01 20:00:12</sys_created_on>
+            <sys_id>790eb3a7db332300e768fbef299619e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_snc_pmis_details" sys_domain="global" view="Default view">95076399db372300e768fbef2996198b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-22 18:33:21</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:00:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>division_priority</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-22 18:33:21</sys_created_on>
-            <sys_id>5107a399db372300e768fbef299619ed</sys_id>
+            <sys_created_on>2019-03-01 20:00:12</sys_created_on>
+            <sys_id>f90eb3a7db332300e768fbef299619e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_snc_pmis_details" sys_domain="global" view="Default view">95076399db372300e768fbef2996198b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-22 18:33:21</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:00:12</sys_updated_on>
             <sys_user/>
-            <type>.split</type>
+            <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>division_priority</element>
+            <element>coi</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-22 18:33:21</sys_created_on>
-            <sys_id>d107a399db372300e768fbef299619ed</sys_id>
+            <sys_created_on>2019-03-01 20:00:12</sys_created_on>
+            <sys_id>7d0eb3a7db332300e768fbef299619e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General" display_value="General" name="x_snc_pmis_details" sys_domain="global" view="Default view">95076399db372300e768fbef2996198b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-22 18:33:21</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:00:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

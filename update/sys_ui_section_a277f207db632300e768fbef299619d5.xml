@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="a277f207db632300e768fbef299619d5" sys_domain="global" table="x_snc_pmis_details" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>project</element>
+            <element>sponsor</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>0dbcf15edb332300e768fbef299619e8</sys_id>
+            <sys_created_on>2019-03-01 20:00:12</sys_created_on>
+            <sys_id>b50eb3a7db332300e768fbef299619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:00:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,69 +18,97 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>c1bcf15edb332300e768fbef299619e9</sys_id>
+            <sys_created_on>2019-03-01 20:00:12</sys_created_on>
+            <sys_id>7d0eb3a7db332300e768fbef299619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:00:12</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>technical_lead</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 13:22:46</sys_created_on>
-            <sys_id>45bcf15edb332300e768fbef299619e9</sys_id>
+            <sys_created_on>2019-03-01 20:00:12</sys_created_on>
+            <sys_id>fd0eb3a7db332300e768fbef299619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 13:22:46</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:00:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>division</element>
+            <element>customer</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-25 18:12:41</sys_created_on>
-            <sys_id>3f0f729adbf32300e768fbef299619bf</sys_id>
+            <sys_created_on>2019-03-01 20:05:10</sys_created_on>
+            <sys_id>de2ff7e7db332300e768fbef29961966</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-25 18:12:41</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:05:10</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>status_test</element>
+            <element>customercombined</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-26 13:23:10</sys_created_on>
-            <sys_id>2866cbe6db732300e768fbef29961931</sys_id>
+            <sys_created_on>2019-03-01 20:15:05</sys_created_on>
+            <sys_id>fb6140f7db332300e768fbef299619e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-26 13:23:10</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:15:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>design_status</element>
+            <element>cusotmer</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-26 18:52:33</sys_created_on>
-            <sys_id>d1c1dcb6db372300e768fbef2996194c</sys_id>
+            <sys_created_on>2019-03-01 20:26:04</sys_created_on>
+            <sys_id>bcf348f7db332300e768fbef299619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-26 18:52:33</sys_updated_on>
+            <sys_updated_on>2019-03-01 20:26:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_ranking</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-01 20:30:49</sys_created_on>
+            <sys_id>960500fbdb332300e768fbef299619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-01 20:30:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_priority</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-01 20:31:52</sys_created_on>
+            <sys_id>6d4580fbdb332300e768fbef299619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_pmis_details" sys_domain="global" view="Default view">a277f207db632300e768fbef299619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-01 20:31:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

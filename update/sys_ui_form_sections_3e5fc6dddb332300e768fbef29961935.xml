@@ -42,6 +42,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-02-22 18:33:20</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-27 17:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc0f09c7db332300e768fbef299619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_pmis_details" name="x_snc_pmis_details" sys_domain="global" view="Default view">3e5fc6dddb332300e768fbef29961935</sys_ui_form>
+            <sys_ui_section caption="Other" display_value="Other" name="x_snc_pmis_details" sys_domain="global" view="Default view">f00f09c7db332300e768fbef299619bd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-27 17:58:35</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_pmis_details</name>
             <roles/>

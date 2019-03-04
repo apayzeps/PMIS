@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="customer_ranking" label="Customer Ranking" language="en" table="x_snc_pmis_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>customer_ranking</element>
+            <help/>
+            <hint/>
+            <label>Customer Ranking</label>
+            <language>en</language>
+            <name>x_snc_pmis_details</name>
+            <plural>Customer Rankings</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-03-01 20:30:49</sys_created_on>
+            <sys_id>1e050cfbdb332300e768fbef29961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer Ranking</sys_name>
+            <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_pmis_details_customer_ranking_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-03-01 20:30:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
