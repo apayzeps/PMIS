@@ -3,6 +3,8 @@
         <element label="Archibus Number" max_length="40" name="archibus_number" type="string"/>
         <element label="AV Status" max_length="32" name="av_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
         <element label="Branch Priority" max_length="40" name="branch_priority" type="integer"/>
+        <element label="Branch Ranking" max_length="40" name="branch_ranking" type="integer"/>
+        <element label="Choice Test" max_length="4000" name="choice_test" reference="x_snc_pmis_choice" type="glide_list"/>
         <element label="COR" max_length="32" name="coi" reference="sys_user" type="reference"/>
         <element label="Compliance Status" max_length="32" name="compliance_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
         <element label="Construction Status" max_length="32" name="construction_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
@@ -19,12 +21,22 @@
         </element>
         <element label="Division" max_length="40" name="division" type="string"/>
         <element label="Division Priority" max_length="2" name="division_priority" type="integer"/>
+        <element label="Division Ranking" max_length="40" name="division_ranking" type="integer"/>
         <element label="FAC Status" max_length="32" name="fac_status" reference="x_snc_pmis_choice" reference_qual="field=FAC Status^EQ" reference_qual_condition="field=FAC Status^EQ" type="reference"/>
         <element label="Furniture Status" max_length="32" name="furniture_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
         <element label="Geographical Location" max_length="32" name="geographical_location" reference="x_snc_pmis_choice" reference_qual="field=GeoLocation^EQ" reference_qual_condition="field=GeoLocation^EQ" type="reference"/>
         <element label="IT Status" max_length="32" name="it_status" reference="x_snc_pmis_choice" reference_qual="field=Stoplight^EQ" reference_qual_condition="field=Stoplight^EQ" type="reference"/>
+        <element choice="1" label="Network" max_length="4000" name="network" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="abc"/>
+                <element inactive_on_update="false" label="def"/>
+                <element inactive_on_update="false" label="xyz"/>
+            </choice>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
+        <element label="SAM #1" max_length="32" name="sam_1" reference="sys_user" type="reference"/>
+        <element label="SAM #2" max_length="32" name="sam_2" reference="sys_user" type="reference"/>
         <element label="Sponsor" max_length="32" name="sponsor" reference="sys_user" type="reference"/>
         <element choice="1" label="Status Test" max_length="10" name="status_test" type="string">
             <choice>
@@ -53,21 +65,27 @@
             <element name="furniture_status"/>
         </index>
         <index name="index7">
-            <element name="it_status"/>
+            <element name="sam_2"/>
         </index>
         <index name="index8">
-            <element name="geographical_location"/>
+            <element name="it_status"/>
         </index>
         <index name="index9">
-            <element name="construction_status"/>
+            <element name="geographical_location"/>
         </index>
         <index name="index10">
-            <element name="coi"/>
+            <element name="sam_1"/>
         </index>
         <index name="index11">
-            <element name="compliance_status"/>
+            <element name="construction_status"/>
         </index>
         <index name="index12">
+            <element name="coi"/>
+        </index>
+        <index name="index13">
+            <element name="compliance_status"/>
+        </index>
+        <index name="index14">
             <element name="customer"/>
         </index>
     </element>

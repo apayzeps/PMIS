@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Project Overal Status FAC">8ccb0b19db103300e768fbef29961906</child>
+        <cloned>2019-03-19 13:05:36</cloned>
+        <last_validated>2019-03-19 13:05:36</last_validated>
+        <parent display_value="Project Overall Status">b78ecae59f331200598a5bb0657fcf34</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category/&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $log, $rootScope /*, StatusReportService */) {
+  // widget controller
+  var c = this;
+  /*$scope.getOtherSummary = function(statusReportId) {
+	  StatusReportService.getOtherSummary(statusReportId).then(function(data) {
+		  $log.log(data);
+		  for(var attr in data.data) {
+			  $scope.data[attr] = data.data[attr];
+		  }
+	  });
+  };
+	
+  $scope.$on('status_date_selected', function(event, data) { 
+	  $log.log("status_date_selected event received: " + data);
+	  $scope.getOtherSummary(data);
+  }); */
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.icon-success-circle {&amp;#13;
+  color: #5cb85c;&amp;#13;
+}&amp;#13;
+.icon-not-started-circle{&amp;#13;
+  color: #f0ad4e;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.icon-warning-circle {&amp;#13;
+  color: #BB0000;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.center{&amp;#13;
+  text-align: center;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.panel-heading {&amp;#13;
+  position: relative;&amp;#13;
+  padding: 5px !important;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.panel-body {&amp;#13;
+  padding-top: 5px;&amp;#13;
+  padding-bottom: 0px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.status-hr {&amp;#13;
+  /*padding-top: 2px;*/&amp;#13;
+  text-align: center;&amp;#13;
+  font-size:20px;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.status-column {&amp;#13;
+  padding: 5px;&amp;#13;
+  text-align: center;&amp;#13;
+&amp;#13;
+  i {&amp;#13;
+    padding-left: 3px;&amp;#13;
+  }&amp;#13;
+&amp;#13;
+}&amp;#13;
+&amp;#13;
+.service {&amp;#13;
+  .fa {&amp;#13;
+    margin-top: 10px;&amp;#13;
+  	margin-bottom: 10px;&amp;#13;
+    font-size: 18px;    &amp;#13;
+  }&amp;#13;
+}&amp;#13;
+&amp;#13;
+.font-18 {&amp;#13;
+ font-size: 18px !important;&amp;#13;
+}&amp;#13;
+.comment p {&amp;#13;
+  margin: 5px 0;&amp;#13;
+}&amp;#13;
+.panel-heading .row, .panel-body .service {&amp;#13;
+  margin-right: 0;&amp;#13;
+  margin-left: 0;&amp;#13;
+}&amp;#13;
+.panel-heading .row .panel-title-col, .panel-body, .panel-body .panel-body-col {&amp;#13;
+  padding: 5px;&amp;#13;
+}&amp;#13;
+.icon {&amp;#13;
+  font-size: 15px;&amp;#13;
+  margin: 5px 0;&amp;#13;
+  display: inline-block;&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;project-overall-status&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Project Overall Status&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	
+	var result = (new PmProjectStatusReport()).statusByReportName("otherStatus", $sp.getParameter('sysparm_sys_id'), $sp.getParameter('sysparm_status_date'), $sp.getParameter('sysparm_report_id'));
+	//gs.info(new JSON().encode(result));
+	if(JSUtil.notNil(result)) {
+		for(var attr in result) {
+			data[attr] = result[attr];
+		}
+	}
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-06-04 01:51:17&lt;/sys_created_on&gt;&lt;sys_id&gt;b78ecae59f331200598a5bb0657fcf34&lt;/sys_id&gt;&lt;sys_mod_count&gt;66&lt;/sys_mod_count&gt;&lt;sys_name&gt;Project Overall Status&lt;/sys_name&gt;&lt;sys_package display_value="Project Portfolio Suite Portal" source="com.snc.pps_portal"&gt;6602d9b6db232300e768fbef299619b5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_b78ecae59f331200598a5bb0657fcf34&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-09-07 15:42:32&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-{{::c.options.color}} b"&gt;
+  &lt;div class="panel-heading"&gt;   
+    &lt;div class="hidden-xs row"&gt;
+      &lt;span class="col-sm-3 panel-title-col"&gt;
+        &lt;div class="panel-title"&gt;${Current Status}&lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span class="col-sm-1 center panel-title-col"&gt;
+      	&lt;div class="panel-title"&gt;${Status}&lt;/div&gt;
+      &lt;/span&gt;
+      &lt;span class="col-sm-8 panel-title-col"&gt;
+      	&lt;div class="panel-title"&gt;${Comments}&lt;/div&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  
+  &lt;div class="hidden-xs panel-body"&gt;
+    &lt;div class="row service" ng-repeat="data in c.data.displayFields"&gt;
+		&lt;div class="col-sm-3 bold panel-body-col"&gt;	
+              &lt;h5 ng-bind="::data.label"&gt;&lt;/h5&gt;  
+	    &lt;/div&gt;
+      	&lt;div class="col-sm-1 center panel-body-col"&gt;	
+          &lt;span class="icon" ng-class="data.icon"&gt;&lt;/span&gt;
+	    &lt;/div&gt;
+        &lt;div class="col-sm-8 panel-body-col"&gt;
+          &lt;span ng-bind-html="::data.comments" class="comment"&gt; &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-19 13:05:36</sys_created_on>
+        <sys_id>04cbc71ddb103300e768fbef299619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8ccb0b19db103300e768fbef29961906</sys_name>
+        <sys_package display_value="PMIS Details" source="x_snc_pmis">06e5f1f2dbab63401771f7b51d961918</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMIS Details">06e5f1f2dbab63401771f7b51d961918</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_04cbc71ddb103300e768fbef299619cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-19 13:05:36</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>
